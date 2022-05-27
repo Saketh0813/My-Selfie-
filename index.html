@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<head id="head1">
+    <title>Voice Recognition Convertor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+</head>
+
+<body id="body1">
+    <center>
+        <a href="" id="link" download = "my_selfie.png"></a>
+
+   
+    <h1 id="title">Voice Recognition Selfie App</h1>
+    <div>
+        <h3 id="instructions">Please click on the allow button as soon as the voice command appears.</h3>
+        <h3 id="hello">Try: "Take my selfie"</h3>
+
+        <label id="voicelabel">Voice Output:</label>
+        <textarea id="voiceinput" readonly="true"></textarea>
+        <br>
+        <button onclick="Start()" id="allowbutton" class="btn btn-success">ALLOW</button>
+    </div>
+    <label id="weblabel">Your Webcam:</label>
+    <div id="camera">
+
+    </div>
+    <label id="selfielabel">Your Selfie:</label>
+    <div id="selfie">
+
+    </div>
+    </center>
+    <script src="main.js"></script>
+</body>

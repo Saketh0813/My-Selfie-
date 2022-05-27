@@ -1,0 +1,19 @@
+#body1{
+    background-color:indianred;
+}
+
+#instructions{
+    color:lightgrey;
+    font-weight:200;
+}
+
+#hello{
+    color:yellow;
+    font-weight:167;
+}
+
+#title{
+    color:violet;
+    font-weight:56;
+    font-size:45px;
+}
